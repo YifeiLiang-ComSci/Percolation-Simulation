@@ -9,29 +9,14 @@ Simply comile and run the PercolationVisualizer.java with filename inside the
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Perfered to use IntelliJ As the IDE to run this program. Simply open the Readmet folder with intellJ.
 
-```
-Give examples
-```
+If using terminal using the following the command:  
+javac  PercolationVisualizer.java  
+java PercolationVisualizer jerry47.txt
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
+**Note be aware that if not using itellJ some of the import file is in the .lift/algs4.jar,and if there is a import error try to move them to the same directory as the java File.
 ![](Readmet/jerry.gif)
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
