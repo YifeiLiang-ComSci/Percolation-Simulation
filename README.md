@@ -5,7 +5,7 @@ We model a percolation system using an n-by-n grid of sites. Each site is either
 ![](Readmet/input20.png)
 
 ## Getting Started
-Simply comile and run the PercolationVisualizer.java with filename inside the 
+Simply comile and run the PercolationVisualizer.java with filename inside the commandLine argument.
 
 ### Prerequisites
 
@@ -16,6 +16,8 @@ javac  PercolationVisualizer.java
 java PercolationVisualizer jerry47.txt
 
 **Note be aware that if not using itellJ some of the import file is in the .lift/algs4.jar,and if there is a import error try to move them to the same directory as the java File.**  
+
+### Exmaple(if run correctly)
 ![](Readmet/jerry.gif)
 
 
