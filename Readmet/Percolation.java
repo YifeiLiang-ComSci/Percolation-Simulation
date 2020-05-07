@@ -1,123 +1,87 @@
 
-
+import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation
 {
-    private int[] connect;
-    private int[] open;
-    private int[] sz;
-    private int num;
-    private int size;
+    private final WeightedQuickUnionUF connect;
+    private final boolean[] open;
+    private final WeightedQuickUnionUF uf;
+    private final int num;
     private int numOfOpenSite;
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n)
     {
-        if (n < 0)
+        uf = new WeightedQuickUnionUF(n*n + 1);
+        if (n <= 0)
         {
             throw new IllegalArgumentException();
         }
-        connect = new int[n * n + 2];
-        open = new int[n * n + 2];
-        sz = new int[n * n + 2];
-        for (int i = 0; i < connect.length; i++)
+        connect = new WeightedQuickUnionUF(n*n+2);
+        open = new boolean[n * n + 2];
+
+        for (int i = 0; i < n*n + 2; i++)
         {
-            connect[i] = i;
-            open [i] = 0;
-            sz[i] = 1;
+            //connect[i] = i;
+            open [i] = false;
+            //sz[i] = 1;
         }
-        open[0] = 1;
-        open[n*n+1] = 1;
+        for(int i = 1 ; i <= n;i++){
+            connect.union(0,i);
+            uf.union(i,0);
+            connect.union(n*n+1,n*n+1-i);
+        }
+        open[0] = true;
+        open[n*n+1] = true;
         num = n;
     }
 
     // opens the site (row, col) if it is not open already
     public void open(int row, int col)
     {
-
-        if(isOpen(row,col))
-        {
-            return;
-        }
+        int index = (row-1) * num + col;
         if (row > num || col > num || row <= 0 || col <= 0)
         {
             throw new IllegalArgumentException();
         }
-        numOfOpenSite++;
-        int index = (row-1) * num + col;
 
-        open[index] = 1;
+        if(open[index])return;
+        numOfOpenSite++;
+
+        open[index] = true;
 
         int up = index - num;
-        if (up > 0)
+        if (up > 0 && open[up] )
         {
-
-            union(index, up);
+            uf.union(index,up);
+            connect.union(index,up);
         }
         int down = index + num;
-        if (down <= num*num)
+        if (down <= num*num && open[down])
         {
-            union(index, down);
+            uf.union(index,down);
+            connect.union(index, down);
         }
 
         int right = index + 1;
-        if (right <= num*num)
+        if (right <= num*num && right% num != 1 && open[right])
         {
-            union(index, right);
+            uf.union(index,right);
+            connect.union(index, right);
         }
         int left = index -1;
-        if (left > 0)
+        if (left > 0 && left % num != 0 && open[left])
         {
-            union(index, left);
+            uf.union(index,left);
+            connect.union(index, left);
         }
-        if (index <= num)
-        {
-
-            union(index,0);
-        }
-        if (index > num*num-num)
-        {
-
-            union(index, num*num + 1);
-        }
+//        if (index <= num)
+//        {
+//            //uf.union(index,0);
+//            //connect.union(index,0);
+//        }
 
 
 
-    }
-    private void union(int index1, int index2)
-    {
-        if(open[index2] == 0)
-        {
-            return;
-        }
-        int i = root(index1);
-        int j = root(index2);
-        if (i == 0)
-        {
 
-            connect[j] = i;
-            sz[i] += sz[j];
-        } else if (j == 0)
-        {
-
-            connect[i] = j;
-            sz[j] += sz[i];
-        } else if (sz[i] < sz[j])
-        {
-            connect[i] = j;
-            sz[j] += sz[i];
-        } else
-        {
-            connect[j] = i;
-            sz[i] += sz[j];
-        }
-    }
-    public int root(int index)
-    {
-        while (index != connect[index])
-        {
-            index = connect[index];
-
-        }
-        return index;
     }
 
     // is the site (row, col) open?
@@ -125,18 +89,25 @@ public class Percolation
     {
         if (row > num || col > num || row <= 0 || col <= 0)
         {
+            //System.out.println(row <= 0);
+            //System.out.println(row +" " +col);
             throw new IllegalArgumentException();
         }
         int index = (row-1) * num + col;
-        return open[index] == 1;
+        return open[index];
     }
 
     // is the site (row, col) full?
     public boolean isFull(int row, int col)
     {
-        int index = (row-1) * num + col;
+        if (row > num || col > num || row <= 0 || col <= 0)
+        {
+            throw new IllegalArgumentException();
+        }
 
-        return root(index) == 0;
+        int index = (row-1) * num + col;
+        //System.out.println("root: " + uf.find(0));
+        return open[index] &&uf.find(index) == uf.find(0);
     }
 
     // returns the number of open sites
@@ -148,18 +119,12 @@ public class Percolation
     // does the system percolate?
     public boolean percolates()
     {
-        return root(num * num + 1) == 0;
+        return numOfOpenSite>0 &&connect.find(0) == connect.find(num*num + 1);
     }
 
     // test client (optional)
     public static void main(String[] args)
     {
-        Percolation p = new Percolation(1);
-        p.open(1,1);
-        // p.open(2,1);
-        // p.open(2,2);
-        // p.open(3,2);
-        System.out.println(p.percolates());
 
 
     }

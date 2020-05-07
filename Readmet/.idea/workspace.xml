@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e66a0481-a386-4228-b64e-a2b3685ff78f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/_lift.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readmet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/percolation.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeInsightSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/file.template.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/AnnotationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/InteractivePercolationVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Percolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/PercolationStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PercolationVisualizer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bYbSfE1v2yDdNnLiugiBjkYMCQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.PercolationVisualizer">
+    <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
+      <module name="Readmet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
+      <module name="Readmet" />
+      <option name="ENABLE_SWING_INSPECTOR" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="Readmet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationVisualizer" />
+      <module name="Readmet" />
+      <option name="PROGRAM_PARAMETERS" value="input2.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Percolation" />
+      <item itemvalue="Application.PercolationVisualizer" />
+      <item itemvalue="Application.PercolationStats" />
+      <item itemvalue="Application.InteractivePercolationVisualizer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InteractivePercolationVisualizer" />
+        <item itemvalue="Application.PercolationStats" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e66a0481-a386-4228-b64e-a2b3685ff78f" name="Default Changelist" comment="" />
+      <created>1588811975092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588811975092</updated>
+      <workItem from="1588811976380" duration="8598000" />
+      <workItem from="1588824398839" duration="7660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="755" y="278" key="#PercolationVisualizer" timestamp="1588815690298">
+      <screen x="0" y="23" width="1402" height="877" />
+    </state>
+    <state x="755" y="278" key="#PercolationVisualizer/0.23.1402.877@0.23.1402.877" timestamp="1588815690298" />
+    <state x="187" y="43" key="#Project_Structure" timestamp="1588827414621">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state x="187" y="43" key="#Project_Structure/0.23.1401.877@0.23.1401.877" timestamp="1588827414621" />
+    <state x="165" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588834922093">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state x="165" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1401.877@0.23.1401.877" timestamp="1588834922093" />
+    <state x="165" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1402.877@0.23.1402.877" timestamp="1588818891767" />
+    <state x="438" y="258" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588812266300">
+      <screen x="0" y="23" width="1402" height="877" />
+    </state>
+    <state x="438" y="258" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1402.877@0.23.1402.877" timestamp="1588812266300" />
+    <state width="1359" height="231" key="GridCell.Tab.0.bottom" timestamp="1588834991978">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state width="1359" height="231" key="GridCell.Tab.0.bottom/0.23.1401.877@0.23.1401.877" timestamp="1588834991978" />
+    <state width="1359" height="231" key="GridCell.Tab.0.bottom/0.23.1402.877@0.23.1402.877" timestamp="1588816253484" />
+    <state width="1359" height="231" key="GridCell.Tab.0.center" timestamp="1588834991978">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state width="1359" height="231" key="GridCell.Tab.0.center/0.23.1401.877@0.23.1401.877" timestamp="1588834991978" />
+    <state width="1359" height="231" key="GridCell.Tab.0.center/0.23.1402.877@0.23.1402.877" timestamp="1588816253483" />
+    <state width="1359" height="231" key="GridCell.Tab.0.left" timestamp="1588834991977">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state width="1359" height="231" key="GridCell.Tab.0.left/0.23.1401.877@0.23.1401.877" timestamp="1588834991977" />
+    <state width="1359" height="231" key="GridCell.Tab.0.left/0.23.1402.877@0.23.1402.877" timestamp="1588816253483" />
+    <state width="1359" height="231" key="GridCell.Tab.0.right" timestamp="1588834991978">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state width="1359" height="231" key="GridCell.Tab.0.right/0.23.1401.877@0.23.1401.877" timestamp="1588834991978" />
+    <state width="1359" height="231" key="GridCell.Tab.0.right/0.23.1402.877@0.23.1402.877" timestamp="1588816253484" />
+    <state x="377" y="38" key="SettingsEditor" timestamp="1588827600644">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state x="377" y="38" key="SettingsEditor/0.23.1401.877@0.23.1401.877" timestamp="1588827600644" />
+    <state x="189" y="43" key="SettingsEditor/0.23.1402.877@0.23.1402.877" timestamp="1588812008655" />
+  </component>
+</project>
