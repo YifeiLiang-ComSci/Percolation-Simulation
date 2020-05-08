@@ -15,7 +15,7 @@ If using terminal using the following the command:
 javac  PercolationVisualizer.java  
 java PercolationVisualizer jerry47.txt
 
-**Note be aware that if not using itellJ some of the import file is in the .lift/algs4.jar,and if there is a import error try to move them to the same directory as the java File.**  
+**Note:  Be aware that if not using itellJ some of the import file is in the .lift/algs4.jar,and if there is a import error try to move them to the same directory as the java File.**  
 
 ### Exmaple(if run correctly)
 ![](Readmet/jerry.gif)
